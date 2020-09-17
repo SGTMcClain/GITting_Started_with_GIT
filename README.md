@@ -1,6 +1,14 @@
-#GITting Started with GIT
+# GITting Started with GIT
+- [GITting Started with GIT](#gitting-started-with-git)
+  * [What is GIT?](#what-is-git)
+  * [What is Github](#what-is-github)
+  * [Installing Git](#installing-git)
+  * [Installing Github Desktop](#installing-github-desktop)
+  * [Installing Git-LFS](#installing-git-lfs)
+    + [Why do we need to do this?](#why-do-we-need-to-do-this)
+  * [Start_Unity_Github_Project](#start-unity-github-project)
 
-## What is GIT?
+## What is GIT
 Git is a free and open source distributed version control system. This means that there is a remote repository and local repositories on each developer’s computer. Each developer can modify their local branch and commit (save) it locally then push their code back to the remote repository. Once code is in the remote repository other developers can pull those changes into their local repository to keep their local repository up to date with the remote repository. Git also keeps a history of all of the changes made to the repository so that nothing is ever truly lost so long as it is committed. This whitepaper will cover of some of the basics of using Git.
 
 ## What is Github
@@ -31,10 +39,10 @@ LFS stands for Large File Storage.  With this add-on installed we can utilize a 
 
 You can download and install Git-LFS here https://git-lfs.github.com/
 
-### Why do we need to do this?
+### Why do we need to do this
 Git manages text files very well and technically any file that you save to your computer can be viewed as some form of text file.  This is great for Readme.md files and code files because they are usually made up of only text.  However larger files like pictures, 3D models, and audio files are massive in size which also means that they would be huge to keep track of.  These files also may have small portions that change everytime the file is opened which can give git fits about what the correct version is.  LFS keeps track of these changes seperately from Git so that it doesn't cause any larger issues (Merge Conflicts). 
 
-## Start_Unity_Github_Project
+## Start Unity Github Project
 Use this template to start a Unity3D project using Git and Github. 
 
 The goal of this repository is to make it easy to get started with source control in Unity.  
