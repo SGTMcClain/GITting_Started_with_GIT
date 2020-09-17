@@ -53,13 +53,13 @@ The following directions assume that you have github desktop [[Download Here]](h
 
 Once you are ready:
 
-4. Click "Clone or Download"
-5. Click "Open in Desktop".  This will open the Github Desktop application
-6. Select a folder on your system and Click "Clone"
-7. Open the new folder with this README.md in your file manager
-8. Copy your existing Unity project folder into this folder
-9. Go back to Github Desktop and create a commit message, then Click "Commit"
-10. Once the commit is complete Click "Push"
+1. Click "Clone or Download"
+2. Click "Open in Desktop".  This will open the Github Desktop application
+3. Select a folder on your system and Click "Clone"
+4. Open the new folder with this README.md in your file manager
+5. Copy your existing Unity project folder into this folder
+6. Go back to Github Desktop and create a commit message, then Click "Commit"
+7. Once the commit is complete Click "Push"
 
 If your Library folder is not being ignored open your command line tool in your this folder and run:
 
