@@ -1,4 +1,11 @@
-# Start_Unity_Github_Project
+#GITting Started with GIT
+
+## What is GIT?
+Git is a free and open source distributed version control system. This means that there is a remote repository and local repositories on each developer’s computer. Each developer can modify their local branch and commit (save) it locally then push their code back to the remote repository. Once code is in the remote repository other developers can pull those changes into their local repository to keep their local repository up to date with the remote repository. Git also keeps a history of all of the changes made to the repository so that nothing is ever truly lost so long as it is committed. This whitepaper will cover of some of the basics of using Git.
+
+## What is GIThub
+
+## Start_Unity_Github_Project
 Use this template to start a Unity3D project using Git and Github. 
 
 The goal of this repository is to make it easy to get started with source control in Unity.  
