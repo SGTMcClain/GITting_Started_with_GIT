@@ -8,7 +8,11 @@ According to [Github.com](https://guides.github.com/activities/hello-world/) Git
 
 During our class Github will also be known as the remote repository.
 
+Github is a complete DevOps platform based around git source control management (SCM). Gitlab serves as the host for our git remote repository and it also provides a web based graphical user interface (GUI) to visualize what our Git looks like. We can use the GitLab platform to navigate branches, manage merge/pull requests, manage packages, store release binaries and a whole lot more.
+
 ## Installing Git
+This is the software that run git.  It is command line only so it can be a bit intimidating to use at first but to get around this we will also install Github Desktop to make things a bit easier.
+
 1. Download Git from https://git-scm.com/downloads
 2. Install Git onto your machine
     1. On the step where it asks you about default editors select either Notepad++ or Visual Studio Code
@@ -19,7 +23,16 @@ During our class Github will also be known as the remote repository.
     This command should return the current version of Git
     
 ## Installing Github Desktop
+1. Download Github Desktop from https://desktop.github.com/
 
+## Installing Git-LFS
+Because we are using Unity we need an addon that will help us manage large binary files like pictures, 3D models, and audio files.
+LFS stands for Large File Storage.  With this add-on installed we can utilize a text file to manage what files LFS should save instead of saving them to git.
+
+You can download and install Git-LFS here https://git-lfs.github.com/
+
+### Why do we need to do this?
+Git manages text files very well and technically any file that you save to your computer can be viewed as some form of text file.  This is great for Readme.md files and code files because they are usually made up of only text.  However larger files like pictures, 3D models, and audio files are massive in size which also means that they would be huge to keep track of.  These files also may have small portions that change everytime the file is opened which can give git fits about what the correct version is.  LFS keeps track of these changes seperately from Git so that it doesn't cause any larger issues (Merge Conflicts). 
 
 ## Start_Unity_Github_Project
 Use this template to start a Unity3D project using Git and Github. 
