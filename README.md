@@ -53,9 +53,6 @@ The following directions assume that you have github desktop [[Download Here]](h
 
 Once you are ready:
 
-1. Click the "Use this template" button on this page. This will create a new repository in your account
-2. Give This repository a name related to your game
-3. Click "Create repository from template"
 4. Click "Clone or Download"
 5. Click "Open in Desktop".  This will open the Github Desktop application
 6. Select a folder on your system and Click "Clone"
