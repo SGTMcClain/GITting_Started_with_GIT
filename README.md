@@ -3,7 +3,23 @@
 ## What is GIT?
 Git is a free and open source distributed version control system. This means that there is a remote repository and local repositories on each developer’s computer. Each developer can modify their local branch and commit (save) it locally then push their code back to the remote repository. Once code is in the remote repository other developers can pull those changes into their local repository to keep their local repository up to date with the remote repository. Git also keeps a history of all of the changes made to the repository so that nothing is ever truly lost so long as it is committed. This whitepaper will cover of some of the basics of using Git.
 
-## What is GIThub
+## What is Github
+According to [Github.com](https://guides.github.com/activities/hello-world/) GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+During our class Github will also be known as the remote repository.
+
+## Installing Git
+1. Download Git from https://git-scm.com/downloads
+2. Install Git onto your machine
+    1. On the step where it asks you about default editors select either Notepad++ or Visual Studio Code
+3. Confirm that you have successfully installed Git by going to your command prompt (console on Mac) or using GitBash which was just installed and run the command
+
+    ```git --version```
+    
+    This command should return the current version of Git
+    
+## Installing Github Desktop
+
 
 ## Start_Unity_Github_Project
 Use this template to start a Unity3D project using Git and Github. 
