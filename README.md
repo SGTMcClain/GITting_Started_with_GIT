@@ -68,3 +68,6 @@ If your Library folder is not being ignored open your command line tool in your 
 then
 
 `git commit -m "Removed Library Folder from repository"`
+
+## References
+Mega Man Sprites - https://www.deviantart.com/metroidpeter/art/Compiled-Mega-Man-Sprite-Sheet-634443594
